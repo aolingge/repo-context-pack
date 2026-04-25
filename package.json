@@ -1,6 +1,6 @@
 {
   "name": "repo-context-pack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create a small, reviewable context pack from README, AGENTS.md, prompts, and package metadata.",
   "type": "module",
   "bin": {
@@ -27,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/aolingge/repo-context-pack/issues"
   },
-  "homepage": "https://github.com/aolingge/repo-context-pack"
+  "homepage": "https://github.com/aolingge/repo-context-pack",
+  "files": [
+    "src",
+    "fixtures",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ]
 }

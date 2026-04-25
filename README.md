@@ -53,6 +53,27 @@ PASS  example-check  Useful signal found
 FAIL  missing-check  Add the missing guidance
 ```
 
+## CI Usage
+
+Use GitHub Actions annotations:
+
+```bash
+npx github:aolingge/repo-context-pack --path fixtures/good.txt --annotations
+```
+
+Generate SARIF:
+
+```bash
+npx github:aolingge/repo-context-pack --path fixtures/good.txt --sarif > results.sarif
+```
+
+See [docs/github-actions.md](docs/github-actions.md).
+
+## Mirrors
+
+- GitHub: https://github.com/aolingge/repo-context-pack
+- Gitee: https://gitee.com/aolingge/repo-context-pack
+
 ## Contributing
 
 Good first PRs: add checks, add fixtures, improve docs, or add GitHub Actions examples.
