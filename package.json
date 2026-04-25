@@ -1,0 +1,31 @@
+{
+  "name": "repo-context-pack",
+  "version": "0.1.0",
+  "description": "Create a small, reviewable context pack from README, AGENTS.md, prompts, and package metadata.",
+  "type": "module",
+  "bin": {
+    "repo-context-pack": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "keywords": [
+    "ai-agent",
+    "context-pack",
+    "repository",
+    "codex",
+    "claude-code",
+    "cli"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/repo-context-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/repo-context-pack/issues"
+  },
+  "homepage": "https://github.com/aolingge/repo-context-pack"
+}

@@ -1,0 +1,9 @@
+# Context Pack
+
+README overview and quick start.
+
+AGENTS.md: coding agent rules.
+
+Commands: npm test.
+
+Boundary: do not include secrets or private logs.
